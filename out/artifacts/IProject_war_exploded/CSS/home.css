@@ -1,0 +1,533 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #323232;
+    /*height: 100%;*/
+    /*background-size: cover;*/
+}
+
+header {
+    background-color: #646464;
+    padding: 1px 15px 0px 15px;
+    margin-top: -15px;
+}
+
+span {
+    color: #0096ff;
+}
+
+#p {
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.tabs {
+    text-decoration: none;
+    color: #0096ff;
+    font-size: 20px;
+    background-color: #323232;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs:hover {
+    background-color: #0096ff;
+    color: #323232;
+}
+
+section {
+    padding: 30px;
+}
+
+hr {
+    height: 30px;
+    background-color: #646464;
+}
+
+.themes {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #646464;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.theme-header {
+    font-size: 18px;
+}
+
+.theme-color {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    background-color: #0096ff;
+    border: none;
+}
+
+/* rgb-to-hex */
+
+#h3 {
+    color: white;
+}
+
+#center {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.inputLabel {
+    font-size: 22px;
+    color: #0096ff;
+}
+
+span {
+    font-family: Arial;
+}
+
+.RGB, .hex, .buttons {
+    border-radius: 8px;
+    border: 3px solid lightgrey;
+    padding: 3px 5px;
+    font-size: 20px;
+}
+
+.RGB {
+    width: 75px;
+}
+
+.hex {
+    width: 90px;
+}
+
+.buttons {
+    margin: 5px;
+    font-family: Courgette;
+    background-color: #0096ff;
+    color: #fff;
+}
+
+.buttons:hover {
+    background-color: #4A849F;
+}
+
+/* rgb-to-hex End */
+
+footer {
+    background-color: #646464;
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+}
+
+/* Slider
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    min-height: 315px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+input[type="radio"] {
+    position: absolute;
+    width: 1px; // Setting this to 0 make it invisible for VoiceOver
+    height: 1px; // Setting this to 0 make it invisible for VoiceOver
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.divLabel {
+    display: block;
+    width: 32%;
+    border: 4px solid white;
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s linear;
+}
+
+label.second {
+    left: 34%;
+}
+
+label.third {
+    left: 68%;
+}
+
+.slide {
+    position: absolute;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.6s ease-in;
+}
+
+#first:checked ~ label.first {
+    border-width: 6px;
+    border-color: #DB532B;
+    background-color: #0096ff;
+}
+
+#second:checked ~ label.second {
+    border-width: 6px;
+    border-color: purple;
+    background-color: #0096ff;
+}
+
+#third:checked ~ label.third {
+    border: 6px solid #54885F;
+    background-color: #0096ff;
+}
+
+#first:checked ~ div.one {
+    left: 0;
+    opacity: 1;
+}
+
+#second:checked ~ div.two {
+    left: 0;
+    opacity: 1;
+}
+
+#third:checked ~ div.three {
+    left: 0;
+    opacity: 1;
+}
+
+/* Slider End */
+
+/* Colors */
+
+#col-1-1 {
+    background-color: #2E112D;
+}
+
+#col-1-2 {
+    background-color: #540032;
+}
+
+#col-1-3 {
+    background-color: #820333;
+}
+
+#col-1-4 {
+    background-color: #C9283E;
+}
+
+#col-1-5 {
+    background-color: #F0433A;
+}
+
+#col-2-1 {
+    background-color: #FCD09B;
+}
+
+#col-2-2 {
+    background-color: #F59A23;
+}
+
+#col-2-3 {
+    background-color: #F27326;
+}
+
+#col-2-4 {
+    background-color: #F1392A;
+}
+
+#col-2-5 {
+    background-color: #C02727;
+}
+
+#col-3-1 {
+    background-color: #E97778;
+}
+
+#col-3-2 {
+    background-color: #89C7B6;
+}
+
+#col-3-3 {
+    background-color: #FFD57E;
+}
+
+#col-3-4 {
+    background-color: #AD84C7;
+}
+
+#col-3-5 {
+    background-color: #7998C9;
+}
+
+#col-4-1 {
+    background-color: #730046;
+}
+
+#col-4-2 {
+    background-color: #B4BF35;
+}
+
+#col-4-3 {
+    background-color: #FFCD30;
+}
+
+#col-4-4 {
+    background-color: #E88E34;
+}
+
+#col-4-5 {
+    background-color: #C93F0F;
+}
+
+#col-5-1 {
+    background-color: #121F27;
+}
+
+#col-5-2 {
+    background-color: #416275;
+}
+
+#col-5-3 {
+    background-color: #6191A8;
+}
+
+#col-5-4 {
+    background-color: #BBCFDA;
+}
+
+#col-5-5 {
+    background-color: #E4EEF0;
+}
+
+#col-6-1 {
+    background-color: #3C989E;
+}
+
+#col-6-2 {
+    background-color: #5DB5A4;
+}
+
+#col-6-3 {
+    background-color: #F4CDA5;
+}
+
+#col-6-4 {
+    background-color: #F57A82;
+}
+
+#col-6-5 {
+    background-color: #ED5276;
+}
+
+#col-7-1 {
+    background-color: #0A1C28;
+}
+
+#col-7-2 {
+    background-color: #44838B;
+}
+
+#col-7-3 {
+    background-color: #71A3A1;
+}
+
+#col-7-4 {
+    background-color: #97C1B6;
+}
+
+#col-7-5 {
+    background-color: #F0EBD2;
+}
+
+#col-8-1 {
+    background-color: #E5C38B;
+}
+
+#col-8-2 {
+    background-color: #EFBF91;
+}
+
+#col-8-3 {
+    background-color: #D9A78D;
+}
+
+#col-8-4 {
+    background-color: #F0A390;
+}
+
+#col-8-5 {
+    background-color: #E58E8A;
+}
+
+#col-9-1 {
+    background-color: #DEFFB8;
+}
+
+#col-9-2 {
+    background-color: #BAD69A;
+}
+
+#col-9-3 {
+    background-color: #879C70;
+}
+
+#col-9-4 {
+    background-color: #5F6E4F;
+}
+
+#col-9-5 {
+    background-color: #434C37;
+}
+
+#col-10-1 {
+    background-color: #035188;
+}
+
+#col-10-2 {
+    background-color: #0574AB;
+}
+
+#col-10-3 {
+    background-color: #D7D3CD;
+}
+
+#col-10-4 {
+    background-color: #F0A7A0;
+}
+
+#col-10-5 {
+    background-color: #F17A77;
+}
+
+#col-11-1 {
+    background-color: #443427;
+}
+
+#col-11-2 {
+    background-color: #807468;
+}
+
+#col-11-3 {
+    background-color: #B17D70;
+}
+
+#col-11-4 {
+    background-color: #501B15;
+}
+
+#col-11-5 {
+    background-color: #624237;
+}
+
+#col-12-1 {
+    background-color: #A8E6CF;
+}
+
+#col-12-2 {
+    background-color: #DCEDC1;
+}
+
+#col-12-3 {
+    background-color: #FFD3B6;
+}
+
+#col-12-4 {
+    background-color: #FFAAA5;
+}
+
+#col-12-5 {
+    background-color: #FF8B94;
+}
+
+#col-13-1 {
+    background-color: #EEEEEE;
+}
+
+#col-13-2 {
+    background-color: #1A507D;
+}
+
+#col-13-3 {
+    background-color: #FF9B78;
+}
+
+#col-13-4 {
+    background-color: #78FFE3;
+}
+
+#col-13-5 {
+    background-color: #31B297;
+}
+
+#col-14-1 {
+    background-color: #4A849F;
+}
+
+#col-14-2 {
+    background-color: #1B3440;
+}
+
+#col-14-3 {
+    background-color: #B4D6C6;
+}
+
+#col-14-4 {
+    background-color: #F5F1D5;
+}
+
+#col-14-5 {
+    background-color: #F2845C;
+}
+
+#col-15-1 {
+    background-color: #FFE56A;
+}
+
+#col-15-2 {
+    background-color: #FDA47A;
+}
+
+#col-15-3 {
+    background-color: #FEAEA3;
+}
+
+#col-15-4 {
+    background-color: #FF9A65;
+}
+
+#col-15-5 {
+    background-color: #FFE1C2;
+}
+
+#col-16-1 {
+    background-color: #323E28;
+}
+
+#col-16-2 {
+    background-color: #86A365;
+}
+
+#col-16-3 {
+    background-color: #5E7345;
+}
+
+#col-16-4 {
+    background-color: #D68161;
+}
+
+#col-16-5 {
+    background-color: #D66056;
+}
+
+/* Colors End */

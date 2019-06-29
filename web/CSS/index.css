@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #323232;
+}
+
+header {
+    background-color: #646464;
+    padding: 1px 15px 1px 15px;
+    margin-top: -15px;
+}
+
+span {
+    color: #0096ff;
+}
+
+#loginForm {
+    text-align: right;
+    margin-top: -60px;
+    margin-bottom: 5px;
+}
+
+#signupForm {
+    text-align: right;
+    margin-top: -90px;
+    margin-right: 80px;
+}
+
+a {
+    margin-right: 120px;
+    text-decoration: none;
+    color: #0096ff;
+}
+
+.input, .Sinput {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 17%;
+    font-size: 16px;
+}
+
+.Sinput {
+    width: 30%;
+    height: 40px;
+}
+
+.Sbtn {
+    width: 30%;
+    height: 30px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 3px 7px;
+    background-color: #0096ff;
+    color: black;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #4A849F;
+}
+
+section {
+    padding: 30px;
+}
+
+aside h1 {
+    font-size: 22px;
+    color: #0096ff;
+}
+
+#h {
+    margin-right: 65px;
+}
